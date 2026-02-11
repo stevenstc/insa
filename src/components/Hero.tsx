@@ -21,11 +21,11 @@ export default function Hero({ onContactClick }: HeroProps) {
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
-              Instituto INSA
+              Conoce INSA
             </h1>
 
             <p className="text-2xl md:text-3xl mb-4 animate-fade-in-delay-1">
-              Tu Camino hacia el Éxito Académico
+              Instituto Nacional del Saber
             </p>
 
             <p className="text-lg md:text-xl mb-12 opacity-90 animate-fade-in-delay-2">
