@@ -7,6 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/insa/',
   build: {
     // Especifica el nombre de la carpeta de salida aquí
     outDir: 'docs', 
