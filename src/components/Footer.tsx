@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <GraduationCap size={32} className="text-yellow-400" />
+              <GraduationCap size={32} className="text-accent-500" />
               <span className="text-2xl font-bold">INSA</span>
             </div>
             <p className="text-gray-400">
@@ -38,16 +38,16 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Síguenos</h3>
             <div className="flex gap-4">
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
+              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-primary-600 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-pink-600 transition-colors">
+              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-cyan-600 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-red-600 transition-colors">
+              <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-secondary-600 transition-colors">
                 <Youtube size={20} />
               </a>
-              <a href="mailto:contacto@institutoinsa.edu.co" className="bg-gray-800 p-3 rounded-full hover:bg-green-600 transition-colors">
+              <a href="mailto:contacto@institutoinsa.edu.co" className="bg-gray-800 p-3 rounded-full hover:bg-accent-600 transition-colors">
                 <Mail size={20} />
               </a>
             </div>

@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ onContactClick }: HeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -17,7 +17,7 @@ export default function Hero({ onContactClick }: HeroProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <div className="flex justify-start mb-8 animate-bounce-slow lg:justify-start">
-              <GraduationCap size={80} className="text-yellow-400" />
+              <GraduationCap size={80} className="text-accent-500" />
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
@@ -35,7 +35,7 @@ export default function Hero({ onContactClick }: HeroProps) {
 
             <button
               onClick={onContactClick}
-              className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold text-lg px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-110 hover:shadow-2xl inline-flex items-center gap-3 animate-fade-in-delay-3"
+              className="bg-accent-500 hover:bg-accent-600 text-primary-900 font-bold text-lg px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-110 hover:shadow-2xl inline-flex items-center gap-3 animate-fade-in-delay-3"
             >
               ¡Inscríbete Ahora!
               <ArrowRight size={24} />
@@ -44,7 +44,7 @@ export default function Hero({ onContactClick }: HeroProps) {
 
           <div className="animate-fade-in-delay-4">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 rounded-2xl blur-lg opacity-30 animate-pulse"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-accent-500 to-accent-400 rounded-2xl blur-lg opacity-30 animate-pulse"></div>
               <img
                 src="/hero1.png"
                 alt="Estudiante en campus"

@@ -40,10 +40,10 @@ export default function About() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-8 rounded-2xl bg-gradient-to-br from-blue-50 to-white border-2 border-blue-100 hover:border-blue-400 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+              className="p-8 rounded-2xl bg-gradient-to-br from-primary-50 to-white border-2 border-primary-100 hover:border-primary-400 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto transform transition-transform hover:rotate-12">
+              <div className="bg-primary-700 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto transform transition-transform hover:rotate-12">
                 <feature.icon size={32} className="text-white" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3 text-center">

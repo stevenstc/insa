@@ -6,25 +6,25 @@ export default function Benefits() {
       icon: Target,
       title: 'Metodología Personalizada',
       description: 'Cada estudiante es único. Adaptamos nuestra enseñanza a tu ritmo y estilo de aprendizaje.',
-      color: 'from-blue-500 to-blue-600',
+      color: 'from-primary-500 to-primary-600',
     },
     {
       icon: TrendingUp,
       title: 'Avanza a tu Ritmo',
       description: 'Sin presiones. Puedes completar los grados en el tiempo que necesites según tu disponibilidad.',
-      color: 'from-green-500 to-green-600',
+      color: 'from-cyan-500 to-cyan-600',
     },
     {
       icon: Briefcase,
       title: 'Mejores Oportunidades',
       description: 'Con tu título de bachiller, abre las puertas a mejores empleos y educación superior.',
-      color: 'from-orange-500 to-orange-600',
+      color: 'from-secondary-500 to-secondary-600',
     },
     {
       icon: Star,
       title: 'Profesores Experimentados',
       description: 'Nuestro equipo docente cuenta con años de experiencia en educación para adultos.',
-      color: 'from-yellow-500 to-yellow-600',
+      color: 'from-accent-500 to-accent-600',
     },
   ];
 

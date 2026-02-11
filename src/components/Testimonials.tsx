@@ -23,13 +23,13 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-900 to-blue-700">
+    <section id="testimonials" className="py-20 bg-gradient-to-br from-primary-900 to-primary-700">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Historias de Éxito
           </h2>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+          <p className="text-xl text-primary-100 max-w-2xl mx-auto">
             Conoce a quienes ya transformaron sus vidas con INSA
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function Testimonials() {
               key={index}
               className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <Quote size={40} className="text-blue-600 mb-4" />
+              <Quote size={40} className="text-primary-600 mb-4" />
 
               <p className="text-gray-700 mb-6 italic">
                 "{testimonial.text}"
@@ -50,13 +50,13 @@ export default function Testimonials() {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-16 h-16 rounded-full object-cover border-4 border-blue-100"
+                  className="w-16 h-16 rounded-full object-cover border-4 border-primary-100"
                 />
                 <div>
                   <h4 className="font-bold text-gray-800">
                     {testimonial.name}
                   </h4>
-                  <p className="text-sm text-blue-600">
+                  <p className="text-sm text-primary-600">
                     {testimonial.grade}
                   </p>
                 </div>

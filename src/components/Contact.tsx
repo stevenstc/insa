@@ -36,8 +36,8 @@ export default function Contact() {
 
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-100 p-3 rounded-full">
-                      <Phone size={24} className="text-blue-600" />
+                    <div className="bg-primary-100 p-3 rounded-full">
+                      <Phone size={24} className="text-primary-600" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Teléfono</p>
@@ -46,8 +46,8 @@ export default function Contact() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-green-100 p-3 rounded-full">
-                      <MessageCircle size={24} className="text-green-600" />
+                    <div className="bg-cyan-100 p-3 rounded-full">
+                      <MessageCircle size={24} className="text-cyan-600" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">WhatsApp</p>
@@ -56,8 +56,8 @@ export default function Contact() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-orange-100 p-3 rounded-full">
-                      <Mail size={24} className="text-orange-600" />
+                    <div className="bg-accent-100 p-3 rounded-full">
+                      <Mail size={24} className="text-accent-600" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Email</p>
@@ -66,8 +66,8 @@ export default function Contact() {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-red-100 p-3 rounded-full">
-                      <MapPin size={24} className="text-red-600" />
+                    <div className="bg-secondary-100 p-3 rounded-full">
+                      <MapPin size={24} className="text-secondary-600" />
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Ubicación</p>
@@ -77,14 +77,14 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-2xl border-2 border-yellow-200">
+              <div className="bg-gradient-to-br from-accent-50 to-secondary-50 p-6 rounded-2xl border-2 border-accent-200">
                 <h4 className="font-bold text-gray-800 mb-2">Horario de Atención</h4>
                 <p className="text-gray-700">Lunes a Viernes: 8:00 AM - 6:00 PM</p>
                 <p className="text-gray-700">Sábados: 9:00 AM - 2:00 PM</p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white shadow-2xl">
+            <div className="bg-gradient-to-br from-primary-600 to-primary-800 rounded-2xl p-8 text-white shadow-2xl">
               <h3 className="text-2xl font-bold mb-6">
                 ¿Listo para Comenzar?
               </h3>
@@ -104,14 +104,14 @@ export default function Contact() {
 
                 <button
                   onClick={handleEmailClick}
-                  className="w-full bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 shadow-lg"
+                  className="w-full bg-white hover:bg-gray-100 text-primary-900 font-bold py-4 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 shadow-lg"
                 >
                   <Send size={24} />
                   Enviar Email
                 </button>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-blue-400">
+              <div className="mt-8 pt-8 border-t border-primary-400">
                 <p className="text-center text-sm opacity-90">
                   🎓 Recibe una asesoría gratuita personalizada
                 </p>
