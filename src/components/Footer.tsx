@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-2xl font-bold">INSA</span>
             </div>
             <p className="text-gray-400">
-              Transformando vidas a través de la educación desde 2010.
+              Transformando vidas a través de la educación desde 2000.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
               <li>+57 300 123 4567</li>
               <li>contacto@institutoinsa.edu.co</li>
               <li>Calle 123 #45-67</li>
-              <li>Tu Ciudad, Colombia</li>
+              <li>Pereira, Colombia</li>
             </ul>
           </div>
 
