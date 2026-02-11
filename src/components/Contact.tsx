@@ -1,7 +1,7 @@
 import { MessageCircle, Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
-  const whatsappNumber = '573001234567';
+  const whatsappNumber = '573005569131';
   const whatsappMessage = encodeURIComponent(
     '¡Hola! Me interesa obtener más información sobre los programas del Instituto INSA.'
   );
@@ -11,7 +11,7 @@ export default function Contact() {
   };
 
   const handleEmailClick = () => {
-    window.location.href = 'mailto:contacto@institutoinsa.edu.co?subject=Consulta sobre programas INSA';
+    window.location.href = 'mailto:institucioneducativainsa@gmail.com?subject=Consulta sobre programas INSA';
   };
 
   return (
@@ -41,7 +41,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Teléfono</p>
-                      <p className="text-gray-600">+57 300 123 4567</p>
+                      <p className="text-gray-600">+57 300 556 91 31</p>
                     </div>
                   </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">WhatsApp</p>
-                      <p className="text-gray-600">+57 300 123 4567</p>
+                      <p className="text-gray-600">+57 300 556 91 31</p>
                     </div>
                   </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Email</p>
-                      <p className="text-gray-600">contacto@institutoinsa.edu.co</p>
+                      <p className="text-gray-600">institucioneducativainsa@gmail.com</p>
                     </div>
                   </div>
 
@@ -71,7 +71,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-800">Ubicación</p>
-                      <p className="text-gray-600">Calle 123 #45-67, Tu Ciudad</p>
+                      <p className="text-gray-600">Carrera 8 #21-12, Pereira</p>
                     </div>
                   </div>
                 </div>
@@ -79,8 +79,8 @@ export default function Contact() {
 
               <div className="bg-gradient-to-br from-accent-50 to-secondary-50 p-6 rounded-2xl border-2 border-accent-200">
                 <h4 className="font-bold text-gray-800 mb-2">Horario de Atención</h4>
-                <p className="text-gray-700">Lunes a Viernes: 8:00 AM - 6:00 PM</p>
-                <p className="text-gray-700">Sábados: 9:00 AM - 2:00 PM</p>
+                <p className="text-gray-700">Lunes a Viernes: 8:00 AM - 12:00 M , 2:00 PM - 7:00 PM</p>
+                <p className="text-gray-700">Sábados: 8:00 AM - 12:00 M</p>
               </div>
             </div>
 
