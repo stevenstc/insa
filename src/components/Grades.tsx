@@ -38,7 +38,7 @@ export default function Grades() {
             Grados Disponibles
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Completa cualquier grado que necesites desde 6° hasta 11°
+            Completa cualquier grado que necesites desde 4° hasta 11°
           </p>
         </div>
 
