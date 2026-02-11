@@ -3,32 +3,28 @@ import { BookOpen, CheckCircle } from 'lucide-react';
 export default function Grades() {
   const grades = [
     {
-      grade: 'Grado 6°',
+      grade: 'Ciclo II - 4° y 5°',
       description: 'Inicia tu secundaria con bases sólidas',
       subjects: ['Matemáticas', 'Español', 'Ciencias', 'Sociales'],
     },
     {
-      grade: 'Grado 7°',
+      grade: 'Ciclo III - 6° y 7°',
       description: 'Desarrolla habilidades fundamentales',
       subjects: ['Álgebra', 'Literatura', 'Biología', 'Historia'],
     },
     {
-      grade: 'Grado 8°',
+      grade: 'Ciclo IV - 8° y 9°',
       description: 'Profundiza en conocimientos clave',
       subjects: ['Geometría', 'Física', 'Química', 'Geografía'],
     },
     {
-      grade: 'Grado 9°',
+      grade: 'Ciclo V - 10°',
       description: 'Prepárate para la educación media',
       subjects: ['Trigonometría', 'Inglés', 'Filosofía', 'Ética'],
     },
+    
     {
-      grade: 'Grado 10°',
-      description: 'Educación media con enfoque práctico',
-      subjects: ['Cálculo', 'Economía', 'Política', 'Tecnología'],
-    },
-    {
-      grade: 'Grado 11°',
+      grade: 'Ciclo VI - 11°',
       description: 'Alcanza tu título de bachiller',
       subjects: ['Estadística', 'Proyecto Final', 'ICFES', 'Orientación'],
     },
