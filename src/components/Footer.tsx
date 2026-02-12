@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <GraduationCap size={32} className="text-accent-500" />
+              <img style={{ height: "50px" }} src="logo-insa.png" />
               <span className="text-2xl font-bold">INSA</span>
             </div>
             <p className="text-gray-400">
