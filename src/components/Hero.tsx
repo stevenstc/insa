@@ -1,9 +1,8 @@
-import { GraduationCap, ArrowRight } from 'lucide-react';
+import { GraduationCap, ArrowRight } from "lucide-react";
 
 interface HeroProps {
   onContactClick: () => void;
 }
-
 
 export default function Hero({ onContactClick }: HeroProps) {
   return (
@@ -16,7 +15,8 @@ export default function Hero({ onContactClick }: HeroProps) {
       <div className="container mx-auto px-6 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
-            <div className="flex justify-start mb-8 animate-bounce-slow lg:justify-start">
+            
+            <div className="flex justify-start mb-8 animate-bounce-slow lg:justify-start mt-20 md:mt-0">
               <GraduationCap size={80} className="text-accent-500" />
             </div>
 
@@ -29,8 +29,8 @@ export default function Hero({ onContactClick }: HeroProps) {
             </p>
 
             <p className="text-lg md:text-xl mb-12 opacity-90 animate-fade-in-delay-2">
-              Completa tu educación desde grado 6° hasta 11°.
-              Nunca es tarde para alcanzar tus metas educativas.
+              Completa tu educación desde grado 4° hasta 11°. Nunca es tarde
+              para alcanzar tus metas educativas.
             </p>
 
             <button
@@ -55,7 +55,8 @@ export default function Hero({ onContactClick }: HeroProps) {
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* Ocultar el ícono de scroll en vista móvil pero mantenerlo en vista de PC */}
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block z-10">
         <div className="w-8 h-12 border-2 border-white rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-3 bg-white rounded-full"></div>
         </div>
