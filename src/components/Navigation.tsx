@@ -1,5 +1,5 @@
-import { GraduationCap, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { GraduationCap, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 interface NavigationProps {
   onContactClick: () => void;
@@ -11,25 +11,28 @@ export default function Navigation({ onContactClick }: NavigationProps) {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
     }
   };
 
   const menuItems = [
-    { label: 'Inicio', id: 'hero' },
-    { label: 'Nosotros', id: 'about' },
-    { label: 'Grados', id: 'grades' },
-    { label: 'Beneficios', id: 'benefits' },
-    { label: 'Testimonios', id: 'testimonials' },
+    { label: "Inicio", id: "hero" },
+    { label: "Nosotros", id: "about" },
+    { label: "Grados", id: "grades" },
+    { label: "Beneficios", id: "benefits" },
+    { label: "Testimonios", id: "testimonials" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-95 backdrop-blur-sm shadow-md">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <GraduationCap size={36} className="text-primary-700" />
+          <div
+            className="flex items-center gap-3 cursor-pointer"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            <img style={{ height: "50px" }} src="logo-insa.png" />
             <span className="text-2xl font-bold text-primary-700">INSA</span>
           </div>
 

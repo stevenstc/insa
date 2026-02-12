@@ -1,13 +1,16 @@
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppButton() {
-  const whatsappNumber = '573001234567';
+  const whatsappNumber = "573005569131";
   const whatsappMessage = encodeURIComponent(
-    '¡Hola! Me interesa obtener más información sobre los programas del Instituto INSA.'
+    "¡Hola! Me interesa obtener más información sobre los programas del Instituto INSA.",
   );
 
   const handleClick = () => {
-    window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+    window.open(
+      `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`,
+      "_blank",
+    );
   };
 
   return (

@@ -46,7 +46,7 @@ export default function Hero({ onContactClick }: HeroProps) {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-accent-500 to-accent-400 rounded-2xl blur-lg opacity-30 animate-pulse"></div>
               <img
-                src="/hero1.png"
+                src="/hero1.jpg"
                 alt="Estudiante en campus"
                 className="relative w-full h-auto rounded-2xl shadow-2xl object-cover transform transition-transform duration-300 hover:scale-105"
               />
