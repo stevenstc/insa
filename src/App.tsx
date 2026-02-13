@@ -1,7 +1,6 @@
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
-import Grades from './components/Grades';
 import Benefits from './components/Benefits';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
@@ -23,7 +22,6 @@ function App() {
         <Hero onContactClick={scrollToContact} />
       </div>
       <About />
-      <Grades />
       <Benefits />
       <Testimonials />
       <Contact />

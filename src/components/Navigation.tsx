@@ -1,4 +1,4 @@
-import { GraduationCap, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 interface NavigationProps {
@@ -19,7 +19,6 @@ export default function Navigation({ onContactClick }: NavigationProps) {
   const menuItems = [
     { label: "Inicio", id: "hero" },
     { label: "Nosotros", id: "about" },
-    { label: "Grados", id: "grades" },
     { label: "Beneficios", id: "benefits" },
     { label: "Testimonios", id: "testimonials" },
   ];

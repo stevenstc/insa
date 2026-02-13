@@ -4,26 +4,26 @@ export default function Benefits() {
   const benefits = [
     {
       icon: Target,
-      title: 'Metodología Personalizada',
-      description: 'Cada estudiante es único. Adaptamos nuestra enseñanza a tu ritmo y estilo de aprendizaje.',
+      title: 'Protagonismo y Resultados',
+      description: 'Tu eres el protagonista de tu estudio, con nuestra ayuda y asesoria vamos de la mano hacia tus metas académicas.',
       color: 'from-primary-500 to-primary-600',
     },
     {
       icon: TrendingUp,
       title: 'Avanza a tu Ritmo',
-      description: 'Sin presiones. Puedes completar los grados en el tiempo que necesites según tu disponibilidad.',
+      description: 'Facilitamos tu camino con una metodología única, donde tu dedicación y criterio personal definen el alcance de tus logros.',
       color: 'from-cyan-500 to-cyan-600',
     },
     {
       icon: Briefcase,
-      title: 'Mejores Oportunidades',
-      description: 'Con tu título de bachiller, abre las puertas a mejores empleos y educación superior.',
+      title: 'Liderazgo y Emprendimiento',
+      description: 'No solo obtienes un título; desarrollas un proyecto productivo diseñado para crear empresa, generar empleo y transformar la vida de otros.',
       color: 'from-secondary-500 to-secondary-600',
     },
     {
       icon: Star,
       title: 'Profesores Experimentados',
-      description: 'Nuestro equipo docente cuenta con años de experiencia en educación para adultos.',
+      description: 'Nuestro equipo docente cuenta con años de experiencia en educación para todos nuestros estudiantes.',
       color: 'from-accent-500 to-accent-600',
     },
   ];

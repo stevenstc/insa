@@ -21,7 +21,7 @@ export default function Hero({ onContactClick }: HeroProps) {
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold mb-6 animate-fade-in">
-              Conoce INSA
+              Ven, conoce al INSA
             </h1>
 
             <p className="text-2xl md:text-3xl mb-4 animate-fade-in-delay-1">
@@ -29,7 +29,7 @@ export default function Hero({ onContactClick }: HeroProps) {
             </p>
 
             <p className="text-lg md:text-xl mb-12 opacity-90 animate-fade-in-delay-2">
-              Completa tu educación desde grado 4° hasta 11°. Nunca es tarde
+              Completa tu educación por ciclos 2 años en 1 desde grado 4° hasta 11°. Nunca es tarde
               para alcanzar tus metas educativas.
             </p>
 

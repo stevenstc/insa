@@ -4,23 +4,24 @@ export default function About() {
   const features = [
     {
       icon: Heart,
+      
       title: 'Educación con Propósito',
-      description: 'Brindamos apoyo personalizado para cada estudiante',
+      description: 'Desde el inicio hasta tu grado, le damos vida a tu visión.',
     },
     {
       icon: Users,
-      title: 'Grupos Reducidos',
-      description: 'Atención individualizada en grupos pequeños',
+      title: 'Diseña tu camino',
+      description: 'Con laboratorios virtuales y el acompañamiento humano que transforma tu talento en resultados.',
     },
     {
       icon: Award,
-      title: 'Certificación Oficial',
-      description: 'Título de bachiller avalado por el Ministerio de Educación',
+      title: 'Tu proyecto real',
+      description: 'Con tecnología, inglés y títulos avalados por la Secretaría de Educación.',
     },
     {
       icon: Clock,
-      title: 'Horarios Flexibles',
-      description: 'Adaptamos los horarios a tu disponibilidad',
+      title: 'Elige tu joranada',
+      description: 'Mañana, noche o sabatinos. Contamos con atención peronalizada y respaldo académico.',
     },
   ];
 
@@ -32,7 +33,7 @@ export default function About() {
             ¿Por Qué Elegir INSA?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Somos más que un instituto, somos tu aliado en el camino hacia un futuro mejor
+            Somos más que un instituto, somos tu aliado en el camino hacia un mejor futuro
           </p>
         </div>
 

@@ -1,5 +1,4 @@
 import {
-  GraduationCap,
   Facebook,
   Instagram,
   // Youtube,
@@ -27,14 +26,6 @@ export default function Footer() {
               <li>
                 <a href="#about" className="hover:text-white transition-colors">
                   Nosotros
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#grades"
-                  className="hover:text-white transition-colors"
-                >
-                  Grados
                 </a>
               </li>
               <li>
